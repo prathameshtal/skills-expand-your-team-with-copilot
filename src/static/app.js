@@ -485,7 +485,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.open(url, "_blank", "width=600,height=400");
         break;
       case "twitter":
-        url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+        url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText + " " + shareUrl)}`;
         window.open(url, "_blank", "width=600,height=400");
         break;
       case "linkedin":
