@@ -661,6 +661,18 @@ footer {
   border: none;
   color: var(--primary-text);
   background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.2s;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#theme-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #theme-toggle .theme-icon {
